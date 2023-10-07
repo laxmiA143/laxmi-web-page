@@ -1,0 +1,555 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/accepts@ts3.6',
+1 verbose cli   '@types/are-we-there-yet@ts3.6',
+1 verbose cli   '@types/argparse@ts3.6',
+1 verbose cli   '@types/asn1@ts3.6',
+1 verbose cli   '@types/assert-plus@ts3.6',
+1 verbose cli   '@types/autosize@ts3.6',
+1 verbose cli   '@types/aws4@ts3.6',
+1 verbose cli   '@types/babel-plugin-syntax-jsx@ts3.6',
+1 verbose cli   '@types/balanced-match@ts3.6',
+1 verbose cli   '@types/bent@ts3.6',
+1 verbose cli   '@types/bindings@ts3.6',
+1 verbose cli   '@types/body-parser@ts3.6',
+1 verbose cli   '@types/brace-expansion@ts3.6',
+1 verbose cli   '@types/buffer-crc32@ts3.6',
+1 verbose cli   '@types/buffers@ts3.6',
+1 verbose cli   '@types/byline@ts3.6',
+1 verbose cli   '@types/bytes@ts3.6',
+1 verbose cli   '@types/caseless@ts3.6',
+1 verbose cli   '@types/checksum@ts3.6',
+1 verbose cli   '@types/chownr@ts3.6',
+1 verbose cli   '@types/color-convert@ts3.6',
+1 verbose cli   '@types/color-name@ts3.6',
+1 verbose cli   '@types/combined-stream@ts3.6',
+1 verbose cli   '@types/concat-map@ts3.6',
+1 verbose cli   '@types/content-disposition@ts3.6',
+1 verbose cli   '@types/content-type@ts3.6',
+1 verbose cli   '@types/cookie@ts3.6',
+1 verbose cli   '@types/cookie-signature@ts3.6',
+1 verbose cli   '@types/css-to-react-native@ts3.6',
+1 verbose cli   '@types/dashdash@ts3.6',
+1 verbose cli   '@types/debug@ts3.6',
+1 verbose cli   '@types/decompress@ts3.6',
+1 verbose cli   '@types/deep-extend@ts3.6',
+1 verbose cli   '@types/delegates@ts3.6',
+1 verbose cli   '@types/depd@ts3.6',
+1 verbose cli   '@types/destroy@ts3.6',
+1 verbose cli   '@types/detect-libc@ts3.6',
+1 verbose cli   '@types/diff@ts3.6',
+1 verbose cli   '@types/dir-glob@ts3.6',
+1 verbose cli   '@types/dompurify@ts3.6',
+1 verbose cli   '@types/drivelist@ts3.6',
+1 verbose cli   '@types/ee-first@ts3.6',
+1 verbose cli   '@types/encodeurl@ts3.6',
+1 verbose cli   '@types/end-of-stream@ts3.6',
+1 verbose cli   '@types/escape-html@ts3.6',
+1 verbose cli   '@types/etag@ts3.6',
+1 verbose cli   '@types/event-stream@ts3.6',
+1 verbose cli   '@types/extend@ts3.6',
+1 verbose cli   '@types/extsprintf@ts3.6',
+1 verbose cli   '@types/finalhandler@ts3.6',
+1 verbose cli   '@types/forever-agent@ts3.6',
+1 verbose cli   '@types/forwarded@ts3.6',
+1 verbose cli   '@types/fresh@ts3.6',
+1 verbose cli   '@types/from@ts3.6',
+1 verbose cli   '@types/fs-extra@ts3.6',
+1 verbose cli   '@types/fs-minipass@ts3.6',
+1 verbose cli   '@types/gauge@ts3.6',
+1 verbose cli   '@types/getpass@ts3.6',
+1 verbose cli   '@types/graceful-fs@ts3.6',
+1 verbose cli   '@types/http-errors@ts3.6',
+1 verbose cli   '@types/imurmurhash@ts3.6',
+1 verbose cli   '@types/inherits@ts3.6',
+1 verbose cli   '@types/ini@ts3.6',
+1 verbose cli   '@types/is-natural-number@ts3.6',
+1 verbose cli   '@types/is-typedarray@ts3.6',
+1 verbose cli   '@types/isarray@ts3.6',
+1 verbose cli   '@types/isexe@ts3.6',
+1 verbose cli   '@types/isstream@ts3.6',
+1 verbose cli   '@types/jsbn@ts3.6',
+1 verbose cli   '@types/json-schema@ts3.6',
+1 verbose cli   '@types/json-stringify-safe@ts3.6',
+1 verbose cli   '@types/jsonfile@ts3.6',
+1 verbose cli   '@types/jsprim@ts3.6',
+1 verbose cli   '@types/linkify-it@ts3.6',
+1 verbose cli   '@types/lodash@ts3.6',
+1 verbose cli   '@types/lodash.clonedeep@ts3.6',
+1 verbose cli   '@types/lodash.debounce@ts3.6',
+1 verbose cli   '@types/lodash.throttle@ts3.6',
+1 verbose cli   '@types/map-stream@ts3.6',
+1 verbose cli   '@types/markdown-it@ts3.6',
+1 verbose cli   '@types/mdurl@ts3.6',
+1 verbose cli   '@types/media-typer@ts3.6',
+1 verbose cli   '@types/merge-descriptors@ts3.6',
+1 verbose cli   '@types/methods@ts3.6',
+1 verbose cli   '@types/mime@ts3.6',
+1 verbose cli   '@types/mime-db@ts3.6',
+1 verbose cli   '@types/mime-types@ts3.6',
+1 verbose cli   '@types/minimist@ts3.6',
+1 verbose cli   '@types/minizlib@ts3.6',
+1 verbose cli   '@types/ms@ts3.6',
+1 verbose cli   '@types/negotiator@ts3.6',
+1 verbose cli   '@types/nested-error-stacks@ts3.6',
+1 verbose cli   '@types/node-abi@ts3.6',
+1 verbose cli   '@types/npmlog@ts3.6',
+1 verbose cli   '@types/number-is-nan@ts3.6',
+1 verbose cli   '@types/object-assign@ts3.6',
+1 verbose cli   ... 78 more items
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session 725d22cfafc33d6d
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/@types%2faccepts 369ms (from cache)
+8 silly pacote tag manifest for @types/accepts@ts3.6 fetched in 400ms
+9 http fetch GET 200 https://registry.npmjs.org/@types%2faws4 398ms
+10 http fetch GET 304 https://registry.npmjs.org/@types%2fbalanced-match 629ms (from cache)
+11 silly pacote tag manifest for @types/balanced-match@ts3.6 fetched in 634ms
+12 http fetch GET 200 https://registry.npmjs.org/@types%2fare-we-there-yet 738ms
+13 http fetch GET 200 https://registry.npmjs.org/@types%2fassert-plus 736ms
+14 http fetch GET 200 https://registry.npmjs.org/@types%2fasn1 759ms
+15 http fetch GET 304 https://registry.npmjs.org/@types%2fbody-parser 139ms (from cache)
+16 silly pacote tag manifest for @types/body-parser@ts3.6 fetched in 143ms
+17 http fetch GET 304 https://registry.npmjs.org/@types%2fbrace-expansion 285ms (from cache)
+18 silly pacote tag manifest for @types/brace-expansion@ts3.6 fetched in 289ms
+19 http fetch GET 200 https://registry.npmjs.org/@types/aws4/-/aws4-1.5.2.tgz 907ms
+20 silly pacote tag manifest for @types/aws4@ts3.6 fetched in 1314ms
+21 http fetch GET 304 https://registry.npmjs.org/@types%2fargparse 1455ms (from cache)
+22 silly pacote tag manifest for @types/argparse@ts3.6 fetched in 1457ms
+23 http fetch GET 200 https://registry.npmjs.org/@types/assert-plus/-/assert-plus-1.0.4.tgz 1063ms
+24 silly pacote tag manifest for @types/assert-plus@ts3.6 fetched in 1809ms
+25 http fetch GET 200 https://registry.npmjs.org/@types/are-we-there-yet/-/are-we-there-yet-1.1.0.tgz 1091ms
+26 silly pacote tag manifest for @types/are-we-there-yet@ts3.6 fetched in 1837ms
+27 http fetch GET 200 https://registry.npmjs.org/@types/asn1/-/asn1-0.2.0.tgz 1095ms
+28 http fetch GET 200 https://registry.npmjs.org/@types%2fautosize 1852ms
+29 silly pacote tag manifest for @types/asn1@ts3.6 fetched in 1873ms
+30 http fetch GET 304 https://registry.npmjs.org/@types%2fbytes 83ms (from cache)
+31 silly pacote tag manifest for @types/bytes@ts3.6 fetched in 86ms
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fbindings 1884ms
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel-plugin-syntax-jsx 2337ms
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fbent 2371ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fcaseless 589ms
+36 http fetch GET 304 https://registry.npmjs.org/@types%2fchownr 565ms (from cache)
+37 silly pacote tag manifest for @types/chownr@ts3.6 fetched in 567ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fbuffer-crc32 1964ms
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fbuffers 1735ms
+40 http fetch GET 304 https://registry.npmjs.org/@types%2fcolor-convert 608ms (from cache)
+41 silly pacote tag manifest for @types/color-convert@ts3.6 fetched in 612ms
+42 http fetch GET 200 https://registry.npmjs.org/@types/caseless/-/caseless-0.12.2.tgz 1214ms
+43 silly pacote tag manifest for @types/caseless@ts3.6 fetched in 1807ms
+44 http fetch GET 304 https://registry.npmjs.org/@types%2fcolor-name 604ms (from cache)
+45 silly pacote tag manifest for @types/color-name@ts3.6 fetched in 607ms
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fchecksum 1828ms
+47 http fetch GET 200 https://registry.npmjs.org/@types/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz 1361ms
+48 silly pacote tag manifest for @types/babel-plugin-syntax-jsx@ts3.6 fetched in 3706ms
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fbyline 2287ms
+50 http fetch GET 304 https://registry.npmjs.org/@types%2fcontent-disposition 59ms (from cache)
+51 silly pacote tag manifest for @types/content-disposition@ts3.6 fetched in 61ms
+52 http fetch GET 304 https://registry.npmjs.org/@types%2fcontent-type 68ms (from cache)
+53 silly pacote tag manifest for @types/content-type@ts3.6 fetched in 72ms
+54 http fetch GET 304 https://registry.npmjs.org/@types%2fcookie 59ms (from cache)
+55 silly pacote tag manifest for @types/cookie@ts3.6 fetched in 61ms
+56 http fetch GET 200 https://registry.npmjs.org/@types/bindings/-/bindings-1.5.1.tgz 1800ms
+57 silly pacote tag manifest for @types/bindings@ts3.6 fetched in 3692ms
+58 http fetch GET 200 https://registry.npmjs.org/@types/autosize/-/autosize-4.0.0.tgz 2273ms
+59 silly pacote tag manifest for @types/autosize@ts3.6 fetched in 4132ms
+60 http fetch GET 304 https://registry.npmjs.org/@types%2fcombined-stream 592ms (from cache)
+61 silly pacote tag manifest for @types/combined-stream@ts3.6 fetched in 593ms
+62 http fetch GET 304 https://registry.npmjs.org/@types%2fconcat-map 669ms (from cache)
+63 silly pacote tag manifest for @types/concat-map@ts3.6 fetched in 672ms
+64 http fetch GET 304 https://registry.npmjs.org/@types%2fdebug 157ms (from cache)
+65 silly pacote tag manifest for @types/debug@ts3.6 fetched in 160ms
+66 http fetch GET 304 https://registry.npmjs.org/@types%2fcookie-signature 640ms (from cache)
+67 silly pacote tag manifest for @types/cookie-signature@ts3.6 fetched in 648ms
+68 http fetch GET 200 https://registry.npmjs.org/@types/bent/-/bent-7.3.2.tgz 2247ms
+69 silly pacote tag manifest for @types/bent@ts3.6 fetched in 4624ms
+70 http fetch GET 200 https://registry.npmjs.org/@types/checksum/-/checksum-0.1.33.tgz 960ms
+71 silly pacote tag manifest for @types/checksum@ts3.6 fetched in 2808ms
+72 http fetch GET 200 https://registry.npmjs.org/@types%2fdashdash 576ms
+73 http fetch GET 304 https://registry.npmjs.org/@types%2fdepd 91ms (from cache)
+74 silly pacote tag manifest for @types/depd@ts3.6 fetched in 93ms
+75 http fetch GET 304 https://registry.npmjs.org/@types%2fdestroy 73ms (from cache)
+76 silly pacote tag manifest for @types/destroy@ts3.6 fetched in 75ms
+77 http fetch GET 200 https://registry.npmjs.org/@types/buffer-crc32/-/buffer-crc32-0.2.0.tgz 1828ms
+78 silly pacote tag manifest for @types/buffer-crc32@ts3.6 fetched in 3799ms
+79 http fetch GET 200 https://registry.npmjs.org/@types%2fdeep-extend 567ms
+80 http fetch GET 200 https://registry.npmjs.org/@types/buffers/-/buffers-0.1.31.tgz 1926ms
+81 silly pacote tag manifest for @types/buffers@ts3.6 fetched in 3673ms
+82 http fetch GET 200 https://registry.npmjs.org/@types%2fdelegates 574ms
+83 silly fetchPackageMetaData error for @types/delegates@ts3.6 No matching version found for @types/delegates@ts3.6.
+84 http fetch GET 304 https://registry.npmjs.org/@types%2fdir-glob 329ms (from cache)
+85 silly pacote tag manifest for @types/dir-glob@ts3.6 fetched in 333ms
+86 http fetch GET 200 https://registry.npmjs.org/@types%2fdetect-libc 582ms
+87 http fetch GET 200 https://registry.npmjs.org/@types%2fee-first 290ms
+88 silly pacote tag manifest for @types/ee-first@ts3.6 fetched in 295ms
+89 http fetch GET 304 https://registry.npmjs.org/@types%2fencodeurl 268ms (from cache)
+90 silly pacote tag manifest for @types/encodeurl@ts3.6 fetched in 272ms
+91 http fetch GET 200 https://registry.npmjs.org/@types/dashdash/-/dashdash-1.14.1.tgz 1110ms
+92 silly pacote tag manifest for @types/dashdash@ts3.6 fetched in 1692ms
+93 http fetch GET 200 https://registry.npmjs.org/@types%2fcss-to-react-native 1838ms
+94 http fetch GET 200 https://registry.npmjs.org/@types/byline/-/byline-4.2.33.tgz 2277ms
+95 silly pacote tag manifest for @types/byline@ts3.6 fetched in 4570ms
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fdecompress 1706ms
+97 http fetch GET 200 https://registry.npmjs.org/@types%2fend-of-stream 285ms
+98 silly pacote tag manifest for @types/end-of-stream@ts3.6 fetched in 297ms
+99 http fetch GET 200 https://registry.npmjs.org/@types/deep-extend/-/deep-extend-0.4.31.tgz 1175ms
+100 silly pacote tag manifest for @types/deep-extend@ts3.6 fetched in 1748ms
+101 http fetch GET 304 https://registry.npmjs.org/@types%2fetag 306ms (from cache)
+102 silly pacote tag manifest for @types/etag@ts3.6 fetched in 308ms
+103 http fetch GET 304 https://registry.npmjs.org/@types%2fescape-html 578ms (from cache)
+104 http fetch GET 200 https://registry.npmjs.org/@types/detect-libc/-/detect-libc-1.0.0.tgz 1105ms
+105 silly pacote tag manifest for @types/escape-html@ts3.6 fetched in 594ms
+106 silly pacote tag manifest for @types/detect-libc@ts3.6 fetched in 1713ms
+107 http fetch GET 304 https://registry.npmjs.org/@types%2ffinalhandler 74ms (from cache)
+108 silly pacote tag manifest for @types/finalhandler@ts3.6 fetched in 77ms
+109 http fetch GET 304 https://registry.npmjs.org/@types%2fforwarded 59ms (from cache)
+110 silly pacote tag manifest for @types/forwarded@ts3.6 fetched in 70ms
+111 http fetch GET 200 https://registry.npmjs.org/@types%2fdiff 1822ms
+112 http fetch GET 200 https://registry.npmjs.org/@types%2fextend 591ms
+113 http fetch GET 200 https://registry.npmjs.org/@types%2fdompurify 1764ms
+114 http fetch GET 200 https://registry.npmjs.org/@types/css-to-react-native/-/css-to-react-native-3.0.0.tgz 933ms
+115 silly pacote tag manifest for @types/css-to-react-native@ts3.6 fetched in 2779ms
+116 http fetch GET 200 https://registry.npmjs.org/@types%2fextsprintf 573ms
+117 http fetch GET 200 https://registry.npmjs.org/@types%2fforever-agent 569ms
+118 http fetch GET 304 https://registry.npmjs.org/@types%2ffresh 586ms (from cache)
+119 silly pacote tag manifest for @types/fresh@ts3.6 fetched in 589ms
+120 http fetch GET 200 https://registry.npmjs.org/@types%2fdrivelist 2180ms
+121 http fetch GET 200 https://registry.npmjs.org/@types/decompress/-/decompress-4.2.4.tgz 1314ms
+122 silly pacote tag manifest for @types/decompress@ts3.6 fetched in 3037ms
+123 http fetch GET 200 https://registry.npmjs.org/@types/diff/-/diff-5.0.1.tgz 922ms
+124 silly pacote tag manifest for @types/diff@ts3.6 fetched in 2756ms
+125 http fetch GET 200 https://registry.npmjs.org/@types/forever-agent/-/forever-agent-0.6.1.tgz 527ms
+126 silly pacote tag manifest for @types/forever-agent@ts3.6 fetched in 1103ms
+127 http fetch GET 200 https://registry.npmjs.org/@types%2fgauge 74ms
+128 silly fetchPackageMetaData error for @types/gauge@ts3.6 No matching version found for @types/gauge@ts3.6.
+129 http fetch GET 304 https://registry.npmjs.org/@types%2fgraceful-fs 82ms (from cache)
+130 silly pacote tag manifest for @types/graceful-fs@ts3.6 fetched in 86ms
+131 http fetch GET 200 https://registry.npmjs.org/@types/dompurify/-/dompurify-2.2.3.tgz 943ms
+132 silly pacote tag manifest for @types/dompurify@ts3.6 fetched in 2716ms
+133 http fetch GET 304 https://registry.npmjs.org/@types%2fhttp-errors 64ms (from cache)
+134 silly pacote tag manifest for @types/http-errors@ts3.6 fetched in 73ms
+135 http fetch GET 304 https://registry.npmjs.org/@types%2ffs-extra 597ms (from cache)
+136 silly pacote tag manifest for @types/fs-extra@ts3.6 fetched in 601ms
+137 http fetch GET 200 https://registry.npmjs.org/@types%2fimurmurhash 82ms
+138 silly pacote tag manifest for @types/imurmurhash@ts3.6 fetched in 86ms
+139 http fetch GET 200 https://registry.npmjs.org/@types%2finherits 82ms
+140 silly pacote tag manifest for @types/inherits@ts3.6 fetched in 87ms
+141 http fetch GET 304 https://registry.npmjs.org/@types%2fis-typedarray 83ms (from cache)
+142 silly pacote tag manifest for @types/is-typedarray@ts3.6 fetched in 85ms
+143 http fetch GET 200 https://registry.npmjs.org/@types%2fevent-stream 1863ms
+144 http fetch GET 304 https://registry.npmjs.org/@types%2ffs-minipass 572ms (from cache)
+145 silly registry:manifest no matching version for @types/fs-minipass@ts3.6 in the cache. Forcing revalidation.
+146 http fetch GET 200 https://registry.npmjs.org/@types/extsprintf/-/extsprintf-1.4.1.tgz 1074ms
+147 http fetch GET 304 https://registry.npmjs.org/@types%2fisarray 63ms (from cache)
+148 silly pacote tag manifest for @types/isarray@ts3.6 fetched in 65ms
+149 silly pacote tag manifest for @types/extsprintf@ts3.6 fetched in 1654ms
+150 http fetch GET 200 https://registry.npmjs.org/@types%2fisexe 67ms
+151 silly pacote tag manifest for @types/isexe@ts3.6 fetched in 69ms
+152 http fetch GET 200 https://registry.npmjs.org/@types%2fgetpass 575ms
+153 http fetch GET 200 https://registry.npmjs.org/@types%2fjsbn 81ms
+154 http fetch GET 304 https://registry.npmjs.org/@types%2fini 577ms (from cache)
+155 silly pacote tag manifest for @types/ini@ts3.6 fetched in 582ms
+156 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 69ms
+157 http fetch GET 200 https://registry.npmjs.org/@types%2ffs-minipass 577ms
+158 silly fetchPackageMetaData error for @types/fs-minipass@ts3.6 No matching version found for @types/fs-minipass@ts3.6.
+159 http fetch GET 200 https://registry.npmjs.org/@types%2fisstream 559ms
+160 http fetch GET 200 https://registry.npmjs.org/@types%2ffrom 1723ms
+161 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz 307ms
+162 silly pacote tag manifest for @types/json-schema@ts3.6 fetched in 383ms
+163 http fetch GET 200 https://registry.npmjs.org/@types/extend/-/extend-3.0.1.tgz 2088ms
+164 silly pacote tag manifest for @types/extend@ts3.6 fetched in 2685ms
+165 http fetch GET 200 https://registry.npmjs.org/@types/event-stream/-/event-stream-3.3.34.tgz 1042ms
+166 silly pacote tag manifest for @types/event-stream@ts3.6 fetched in 2910ms
+167 http fetch GET 200 https://registry.npmjs.org/@types/jsbn/-/jsbn-1.2.29.tgz 882ms
+168 silly pacote tag manifest for @types/jsbn@ts3.6 fetched in 968ms
+169 http fetch GET 304 https://registry.npmjs.org/@types%2flodash 86ms (from cache)
+170 silly pacote tag manifest for @types/lodash@ts3.6 fetched in 90ms
+171 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-stringify-safe 583ms
+172 http fetch GET 200 https://registry.npmjs.org/@types/getpass/-/getpass-0.1.1.tgz 1103ms
+173 silly pacote tag manifest for @types/getpass@ts3.6 fetched in 1683ms
+174 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.clonedeep 220ms
+175 http fetch GET 304 https://registry.npmjs.org/@types%2fjsonfile 614ms (from cache)
+176 silly pacote tag manifest for @types/jsonfile@ts3.6 fetched in 617ms
+177 http fetch GET 200 https://registry.npmjs.org/@types%2fjsprim 568ms
+178 silly fetchPackageMetaData error for @types/jsprim@ts3.6 No matching version found for @types/jsprim@ts3.6.
+179 http fetch GET 200 https://registry.npmjs.org/@types%2fis-natural-number 1727ms
+180 http fetch GET 200 https://registry.npmjs.org/@types/drivelist/-/drivelist-6.4.2.tgz 2242ms
+181 silly pacote tag manifest for @types/drivelist@ts3.6 fetched in 4430ms
+182 http fetch GET 200 https://registry.npmjs.org/@types/isstream/-/isstream-0.1.0.tgz 1098ms
+183 silly pacote tag manifest for @types/isstream@ts3.6 fetched in 1665ms
+184 http fetch GET 304 https://registry.npmjs.org/@types%2flodash.debounce 573ms (from cache)
+185 silly pacote tag manifest for @types/lodash.debounce@ts3.6 fetched in 578ms
+186 http fetch GET 200 https://registry.npmjs.org/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.6.tgz 989ms
+187 http fetch GET 200 https://registry.npmjs.org/@types/json-stringify-safe/-/json-stringify-safe-5.0.0.tgz 1196ms
+188 http fetch GET 200 https://registry.npmjs.org/@types/from/-/from-0.1.29.tgz 1745ms
+189 silly pacote tag manifest for @types/lodash.clonedeep@ts3.6 fetched in 1219ms
+190 silly pacote tag manifest for @types/json-stringify-safe@ts3.6 fetched in 1788ms
+191 silly pacote tag manifest for @types/from@ts3.6 fetched in 3479ms
+192 http fetch GET 304 https://registry.npmjs.org/@types%2fmedia-typer 571ms (from cache)
+193 silly pacote tag manifest for @types/media-typer@ts3.6 fetched in 576ms
+194 http fetch GET 304 https://registry.npmjs.org/@types%2fmerge-descriptors 64ms (from cache)
+195 silly pacote tag manifest for @types/merge-descriptors@ts3.6 fetched in 67ms
+196 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 84ms
+197 http fetch GET 200 https://registry.npmjs.org/@types%2fmethods 86ms
+198 silly pacote tag manifest for @types/methods@ts3.6 fetched in 88ms
+199 silly pacote tag manifest for @types/mime@ts3.6 fetched in 87ms
+200 http fetch GET 200 https://registry.npmjs.org/@types%2fmime-db 57ms
+201 silly pacote tag manifest for @types/mime-db@ts3.6 fetched in 61ms
+202 http fetch GET 200 https://registry.npmjs.org/@types%2fmime-types 63ms
+203 silly pacote tag manifest for @types/mime-types@ts3.6 fetched in 65ms
+204 http fetch GET 200 https://registry.npmjs.org/@types%2fminizlib 69ms
+205 silly pacote tag manifest for @types/minizlib@ts3.6 fetched in 72ms
+206 http fetch GET 200 https://registry.npmjs.org/@types%2fminimist 89ms
+207 silly pacote tag manifest for @types/minimist@ts3.6 fetched in 91ms
+208 http fetch GET 304 https://registry.npmjs.org/@types%2fnegotiator 55ms (from cache)
+209 silly pacote tag manifest for @types/negotiator@ts3.6 fetched in 57ms
+210 http fetch GET 200 https://registry.npmjs.org/@types%2flinkify-it 1800ms
+211 http fetch GET 200 https://registry.npmjs.org/@types%2fms 581ms
+212 silly pacote tag manifest for @types/ms@ts3.6 fetched in 587ms
+213 http fetch GET 200 https://registry.npmjs.org/@types%2fnpmlog 572ms
+214 http fetch GET 200 https://registry.npmjs.org/@types/is-natural-number/-/is-natural-number-4.0.0.tgz 1767ms
+215 silly pacote tag manifest for @types/is-natural-number@ts3.6 fetched in 3501ms
+216 http fetch GET 304 https://registry.npmjs.org/@types%2fobject-assign 80ms (from cache)
+217 silly pacote tag manifest for @types/object-assign@ts3.6 fetched in 84ms
+218 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.throttle 2126ms
+219 http fetch GET 200 https://registry.npmjs.org/@types%2fmap-stream 2086ms
+220 silly fetchPackageMetaData error for @types/map-stream@ts3.6 No matching version found for @types/map-stream@ts3.6.
+221 http fetch GET 304 https://registry.npmjs.org/@types%2fon-finished 115ms (from cache)
+222 silly pacote tag manifest for @types/on-finished@ts3.6 fetched in 117ms
+223 http fetch GET 304 https://registry.npmjs.org/@types%2fonce 81ms (from cache)
+224 silly pacote tag manifest for @types/once@ts3.6 fetched in 83ms
+225 http fetch GET 200 https://registry.npmjs.org/@types%2fnumber-is-nan 583ms
+226 http fetch GET 200 https://registry.npmjs.org/@types/linkify-it/-/linkify-it-3.0.2.tgz 1015ms
+227 silly pacote tag manifest for @types/linkify-it@ts3.6 fetched in 2820ms
+228 http fetch GET 200 https://registry.npmjs.org/@types%2fmarkdown-it 2320ms
+229 http fetch GET 200 https://registry.npmjs.org/@types%2fmdurl 2245ms
+230 http fetch GET 200 https://registry.npmjs.org/@types%2fos-homedir 233ms
+231 http fetch GET 200 https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.3.tgz 1080ms
+232 silly pacote tag manifest for @types/npmlog@ts3.6 fetched in 1657ms
+233 http fetch GET 304 https://registry.npmjs.org/@types%2fparseurl 66ms (from cache)
+234 silly pacote tag manifest for @types/parseurl@ts3.6 fetched in 68ms
+235 http fetch GET 200 https://registry.npmjs.org/@types%2fnested-error-stacks 1785ms
+236 http fetch GET 200 https://registry.npmjs.org/@types%2fnode-abi 1766ms
+237 http fetch GET 200 https://registry.npmjs.org/@types/mdurl/-/mdurl-1.0.2.tgz 629ms
+238 silly pacote tag manifest for @types/mdurl@ts3.6 fetched in 2880ms
+239 http fetch GET 200 https://registry.npmjs.org/@types/number-is-nan/-/number-is-nan-2.0.0.tgz 1271ms
+240 silly pacote tag manifest for @types/number-is-nan@ts3.6 fetched in 1863ms
+241 http fetch GET 304 https://registry.npmjs.org/@types%2fpath-is-absolute 706ms (from cache)
+242 silly pacote tag manifest for @types/path-is-absolute@ts3.6 fetched in 710ms
+243 http fetch GET 200 https://registry.npmjs.org/@types/os-homedir/-/os-homedir-1.0.0.tgz 1038ms
+244 silly pacote tag manifest for @types/os-homedir@ts3.6 fetched in 1276ms
+245 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 94ms
+246 silly pacote tag manifest for @types/prop-types@ts3.6 fetched in 96ms
+247 http fetch GET 200 https://registry.npmjs.org/@types/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz 946ms
+248 silly pacote tag manifest for @types/nested-error-stacks@ts3.6 fetched in 2734ms
+249 http fetch GET 200 https://registry.npmjs.org/@types%2foptimist 1692ms
+250 http fetch GET 304 https://registry.npmjs.org/@types%2fprogress 311ms (from cache)
+251 silly pacote tag manifest for @types/progress@ts3.6 fetched in 317ms
+252 http fetch GET 200 https://registry.npmjs.org/@types%2fproxy-addr 243ms
+253 silly pacote tag manifest for @types/proxy-addr@ts3.6 fetched in 253ms
+254 http fetch GET 200 https://registry.npmjs.org/@types%2fpify 565ms
+255 silly pacote tag manifest for @types/pify@ts3.6 fetched in 567ms
+256 http fetch GET 200 https://registry.npmjs.org/@types%2foniguruma 2050ms
+257 http fetch GET 200 https://registry.npmjs.org/@types%2fpsl 243ms
+258 silly pacote tag manifest for @types/psl@ts3.6 fetched in 246ms
+259 http fetch GET 200 https://registry.npmjs.org/@types/lodash.throttle/-/lodash.throttle-4.1.6.tgz 2452ms
+260 silly pacote tag manifest for @types/lodash.throttle@ts3.6 fetched in 4590ms
+261 http fetch GET 304 https://registry.npmjs.org/@types%2fpunycode 272ms (from cache)
+262 silly pacote tag manifest for @types/punycode@ts3.6 fetched in 278ms
+263 http fetch GET 304 https://registry.npmjs.org/@types%2fqs 82ms (from cache)
+264 silly pacote tag manifest for @types/qs@ts3.6 fetched in 84ms
+265 http fetch GET 304 https://registry.npmjs.org/@types%2fpump 563ms (from cache)
+266 silly pacote tag manifest for @types/pump@ts3.6 fetched in 564ms
+267 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 109ms
+268 http fetch GET 200 https://registry.npmjs.org/@types/markdown-it/-/markdown-it-12.2.0.tgz 2170ms
+269 silly pacote tag manifest for @types/range-parser@ts3.6 fetched in 114ms
+270 silly pacote tag manifest for @types/markdown-it@ts3.6 fetched in 4516ms
+271 http fetch GET 200 https://registry.npmjs.org/@types%2freact 149ms
+272 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 117ms
+273 silly pacote tag manifest for @types/react-dom@ts3.6 fetched in 122ms
+274 silly pacote tag manifest for @types/react@ts3.6 fetched in 163ms
+275 http fetch GET 200 https://registry.npmjs.org/@types/node-abi/-/node-abi-2.10.0.tgz 1939ms
+276 silly pacote tag manifest for @types/node-abi@ts3.6 fetched in 3711ms
+277 http fetch GET 200 https://registry.npmjs.org/@types%2freadable-stream 106ms
+278 silly pacote tag manifest for @types/readable-stream@ts3.6 fetched in 112ms
+279 http fetch GET 200 https://registry.npmjs.org/@types%2freact-is 277ms
+280 silly pacote tag manifest for @types/react-is@ts3.6 fetched in 281ms
+281 http fetch GET 200 https://registry.npmjs.org/@types%2fregenerator-runtime 95ms
+282 silly pacote tag manifest for @types/regenerator-runtime@ts3.6 fetched in 99ms
+283 http fetch GET 200 https://registry.npmjs.org/@types%2frc 627ms
+284 http fetch GET 200 https://registry.npmjs.org/@types%2frequest 286ms
+285 http fetch GET 200 https://registry.npmjs.org/@types%2fpdfobject 2153ms
+286 http fetch GET 200 https://registry.npmjs.org/@types%2fproxy-from-env 1762ms
+287 http fetch GET 200 https://registry.npmjs.org/@types%2fps-tree 1916ms
+288 http fetch GET 200 https://registry.npmjs.org/@types/optimist/-/optimist-0.0.30.tgz 2170ms
+289 silly pacote tag manifest for @types/optimist@ts3.6 fetched in 3871ms
+290 http fetch GET 200 https://registry.npmjs.org/@types/request/-/request-2.48.7.tgz 1029ms
+291 silly pacote tag manifest for @types/request@ts3.6 fetched in 1324ms
+292 http fetch GET 200 https://registry.npmjs.org/@types/oniguruma/-/oniguruma-7.0.1.tgz 2171ms
+293 silly pacote tag manifest for @types/oniguruma@ts3.6 fetched in 4228ms
+294 http fetch GET 200 https://registry.npmjs.org/@types/rc/-/rc-1.2.0.tgz 1103ms
+295 silly pacote tag manifest for @types/rc@ts3.6 fetched in 1736ms
+296 http fetch GET 200 https://registry.npmjs.org/@types%2fsafer-buffer 89ms
+297 silly pacote tag manifest for @types/safer-buffer@ts3.6 fetched in 92ms
+298 http fetch GET 200 https://registry.npmjs.org/@types%2fscheduler 77ms
+299 silly pacote tag manifest for @types/scheduler@ts3.6 fetched in 82ms
+300 http fetch GET 200 https://registry.npmjs.org/@types/proxy-from-env/-/proxy-from-env-1.0.1.tgz 962ms
+301 silly pacote tag manifest for @types/proxy-from-env@ts3.6 fetched in 2730ms
+302 http fetch GET 200 https://registry.npmjs.org/@types%2fsemver 81ms
+303 silly pacote tag manifest for @types/semver@ts3.6 fetched in 84ms
+304 http fetch GET 200 https://registry.npmjs.org/@types%2frequire-directory 594ms
+305 http fetch GET 200 https://registry.npmjs.org/@types%2fsend 75ms
+306 silly pacote tag manifest for @types/send@ts3.6 fetched in 79ms
+307 silly pacote tag manifest for @types/require-directory@ts3.6 fetched in 600ms
+308 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 70ms
+309 silly pacote tag manifest for @types/serve-static@ts3.6 fetched in 75ms
+310 http fetch GET 304 https://registry.npmjs.org/@types%2fset-blocking 82ms (from cache)
+311 silly registry:manifest no matching version for @types/set-blocking@ts3.6 in the cache. Forcing revalidation.
+312 http fetch GET 200 https://registry.npmjs.org/@types%2frequestretry 1746ms
+313 http fetch GET 200 https://registry.npmjs.org/@types%2freact-lifecycles-compat 2108ms
+314 http fetch GET 200 https://registry.npmjs.org/@types%2freact-virtualized 2149ms
+315 http fetch GET 200 https://registry.npmjs.org/@types%2fset-blocking 361ms
+316 silly fetchPackageMetaData error for @types/set-blocking@ts3.6 No matching version found for @types/set-blocking@ts3.6.
+317 http fetch GET 200 https://registry.npmjs.org/@types%2fsignal-exit 571ms
+318 silly pacote tag manifest for @types/signal-exit@ts3.6 fetched in 576ms
+319 http fetch GET 200 https://registry.npmjs.org/@types/pdfobject/-/pdfobject-2.2.2.tgz 2195ms
+320 silly pacote tag manifest for @types/pdfobject@ts3.6 fetched in 4356ms
+321 http fetch GET 200 https://registry.npmjs.org/@types/ps-tree/-/ps-tree-1.1.1.tgz 1756ms
+322 silly pacote tag manifest for @types/ps-tree@ts3.6 fetched in 3681ms
+323 http fetch GET 304 https://registry.npmjs.org/@types%2fsprintf-js 79ms (from cache)
+324 silly pacote tag manifest for @types/sprintf-js@ts3.6 fetched in 83ms
+325 http fetch GET 200 https://registry.npmjs.org/@types%2fsshpk 211ms
+326 http fetch GET 304 https://registry.npmjs.org/@types%2fsprintf 598ms (from cache)
+327 http fetch GET 200 https://registry.npmjs.org/@types%2froute-parser 1780ms
+328 silly pacote tag manifest for @types/sprintf@ts3.6 fetched in 602ms
+329 http fetch GET 200 https://registry.npmjs.org/@types/react-lifecycles-compat/-/react-lifecycles-compat-3.0.1.tgz 1331ms
+330 silly pacote tag manifest for @types/react-lifecycles-compat@ts3.6 fetched in 3446ms
+331 http fetch GET 200 https://registry.npmjs.org/@types/react-virtualized/-/react-virtualized-9.21.13.tgz 1377ms
+332 http fetch GET 200 https://registry.npmjs.org/@types%2fstyled-components 90ms
+333 silly pacote tag manifest for @types/react-virtualized@ts3.6 fetched in 3538ms
+334 http fetch GET 200 https://registry.npmjs.org/@types%2fstatuses 255ms
+335 silly pacote tag manifest for @types/statuses@ts3.6 fetched in 258ms
+336 http fetch GET 304 https://registry.npmjs.org/@types%2ftar 243ms (from cache)
+337 silly pacote tag manifest for @types/tar@ts3.6 fetched in 247ms
+338 http fetch GET 200 https://registry.npmjs.org/@types/requestretry/-/requestretry-1.12.8.tgz 1849ms
+339 silly pacote tag manifest for @types/requestretry@ts3.6 fetched in 3602ms
+340 http fetch GET 200 https://registry.npmjs.org/@types%2fsanitize-html 2291ms
+341 http fetch GET 200 https://registry.npmjs.org/@types%2fshowdown 2094ms
+342 http fetch GET 200 https://registry.npmjs.org/@types/sshpk/-/sshpk-1.10.6.tgz 891ms
+343 silly pacote tag manifest for @types/sshpk@ts3.6 fetched in 1111ms
+344 http fetch GET 200 https://registry.npmjs.org/@types%2fthrough 102ms
+345 http fetch GET 200 https://registry.npmjs.org/@types%2ftar-stream 215ms
+346 http fetch GET 200 https://registry.npmjs.org/@types%2ftar-fs 259ms
+347 http fetch GET 304 https://registry.npmjs.org/@types%2fsupports-color 599ms (from cache)
+348 silly pacote tag manifest for @types/supports-color@ts3.6 fetched in 603ms
+349 http fetch GET 200 https://registry.npmjs.org/@types%2fsimple-get 1924ms
+350 silly fetchPackageMetaData error for @types/simple-get@ts3.6 No matching version found for @types/simple-get@ts3.6.
+351 http fetch GET 304 https://registry.npmjs.org/@types%2ftough-cookie 107ms (from cache)
+352 silly pacote tag manifest for @types/tough-cookie@ts3.6 fetched in 111ms
+353 http fetch GET 200 https://registry.npmjs.org/@types%2fsplit 2079ms
+354 http fetch GET 200 https://registry.npmjs.org/@types/styled-components/-/styled-components-5.1.12.tgz 1088ms
+355 silly pacote tag manifest for @types/styled-components@ts3.6 fetched in 1189ms
+356 http fetch GET 304 https://registry.npmjs.org/@types%2ftoidentifier 583ms (from cache)
+357 silly registry:manifest no matching version for @types/toidentifier@ts3.6 in the cache. Forcing revalidation.
+358 http fetch GET 200 https://registry.npmjs.org/@types/through/-/through-0.0.30.tgz 902ms
+359 silly pacote tag manifest for @types/through@ts3.6 fetched in 1014ms
+360 http fetch GET 304 https://registry.npmjs.org/@types%2ftype-is 565ms (from cache)
+361 silly pacote tag manifest for @types/type-is@ts3.6 fetched in 570ms
+362 http fetch GET 200 https://registry.npmjs.org/@types%2ftoidentifier 583ms
+363 silly fetchPackageMetaData error for @types/toidentifier@ts3.6 No matching version found for @types/toidentifier@ts3.6.
+364 http fetch GET 200 https://registry.npmjs.org/@types/showdown/-/showdown-1.9.4.tgz 1423ms
+365 silly pacote tag manifest for @types/showdown@ts3.6 fetched in 3526ms
+366 http fetch GET 200 https://registry.npmjs.org/@types/route-parser/-/route-parser-0.1.3.tgz 2154ms
+367 silly pacote tag manifest for @types/route-parser@ts3.6 fetched in 3945ms
+368 http fetch GET 200 https://registry.npmjs.org/@types/split/-/split-1.0.0.tgz 1155ms
+369 silly pacote tag manifest for @types/split@ts3.6 fetched in 3241ms
+370 http fetch GET 304 https://registry.npmjs.org/@types%2futils-merge 66ms (from cache)
+371 silly pacote tag manifest for @types/utils-merge@ts3.6 fetched in 69ms
+372 http fetch GET 304 https://registry.npmjs.org/@types%2funiversalify 587ms (from cache)
+373 silly pacote tag manifest for @types/universalify@ts3.6 fetched in 591ms
+374 http fetch GET 200 https://registry.npmjs.org/@types%2fvary 78ms
+375 silly pacote tag manifest for @types/vary@ts3.6 fetched in 82ms
+376 http fetch GET 200 https://registry.npmjs.org/@types/sanitize-html/-/sanitize-html-2.3.2.tgz 2100ms
+377 silly pacote tag manifest for @types/sanitize-html@ts3.6 fetched in 4402ms
+378 http fetch GET 200 https://registry.npmjs.org/@types/tar-fs/-/tar-fs-2.0.1.tgz 1902ms
+379 silly pacote tag manifest for @types/tar-fs@ts3.6 fetched in 2173ms
+380 http fetch GET 200 https://registry.npmjs.org/@types/tar-stream/-/tar-stream-2.2.1.tgz 1960ms
+381 silly pacote tag manifest for @types/tar-stream@ts3.6 fetched in 2189ms
+382 http fetch GET 304 https://registry.npmjs.org/@types%2futil-deprecate 572ms (from cache)
+383 silly pacote tag manifest for @types/util-deprecate@ts3.6 fetched in 576ms
+384 http fetch GET 200 https://registry.npmjs.org/@types%2fwhich-pm-runs 191ms
+385 http fetch GET 200 https://registry.npmjs.org/@types%2ftraverse 1943ms
+386 http fetch GET 200 https://registry.npmjs.org/@types%2fuuid 597ms
+387 silly pacote tag manifest for @types/uuid@ts3.6 fetched in 605ms
+388 http fetch GET 200 https://registry.npmjs.org/@types%2fverror 562ms
+389 http fetch GET 304 https://registry.npmjs.org/@types%2fwhich 591ms (from cache)
+390 silly pacote tag manifest for @types/which@ts3.6 fetched in 596ms
+391 http fetch GET 200 https://registry.npmjs.org/@types%2funbzip2-stream 1737ms
+392 silly fetchPackageMetaData error for @types/unbzip2-stream@ts3.6 No matching version found for @types/unbzip2-stream@ts3.6.
+393 http fetch GET 200 https://registry.npmjs.org/@types%2fws 119ms
+394 silly pacote tag manifest for @types/ws@ts3.6 fetched in 126ms
+395 http fetch GET 304 https://registry.npmjs.org/@types%2fxtend 108ms (from cache)
+396 silly pacote tag manifest for @types/xtend@ts3.6 fetched in 111ms
+397 http fetch GET 200 https://registry.npmjs.org/@types%2fyallist 81ms
+398 silly pacote tag manifest for @types/yallist@ts3.6 fetched in 86ms
+399 http fetch GET 200 https://registry.npmjs.org/@types/which-pm-runs/-/which-pm-runs-1.0.0.tgz 883ms
+400 silly pacote tag manifest for @types/which-pm-runs@ts3.6 fetched in 1084ms
+401 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs 115ms
+402 silly pacote tag manifest for @types/yargs@ts3.6 fetched in 123ms
+403 http fetch GET 304 https://registry.npmjs.org/@types%2fwrap-ansi 588ms (from cache)
+404 silly pacote tag manifest for @types/wrap-ansi@ts3.6 fetched in 592ms
+405 http fetch GET 200 https://registry.npmjs.org/@types%2fyauzl 172ms
+406 http fetch GET 200 https://registry.npmjs.org/@types%2fuser-home 2084ms
+407 http fetch GET 200 https://registry.npmjs.org/@types/verror/-/verror-1.10.5.tgz 1098ms
+408 silly pacote tag manifest for @types/verror@ts3.6 fetched in 1668ms
+409 http fetch GET 200 https://registry.npmjs.org/@types%2funzip-stream 2283ms
+410 http fetch GET 200 https://registry.npmjs.org/@types%2fwhen 1845ms
+411 http fetch GET 200 https://registry.npmjs.org/@types/traverse/-/traverse-0.6.32.tgz 1763ms
+412 silly pacote tag manifest for @types/traverse@ts3.6 fetched in 3711ms
+413 http fetch GET 200 https://registry.npmjs.org/@types%2fvhost 2146ms
+414 http fetch GET 200 https://registry.npmjs.org/@types/yauzl/-/yauzl-2.9.2.tgz 977ms
+415 silly pacote tag manifest for @types/yauzl@ts3.6 fetched in 1155ms
+416 http fetch GET 200 https://registry.npmjs.org/@types%2fwordwrap 2373ms
+417 http fetch GET 200 https://registry.npmjs.org/@types/unzip-stream/-/unzip-stream-0.3.1.tgz 1832ms
+418 silly pacote tag manifest for @types/unzip-stream@ts3.6 fetched in 4120ms
+419 http fetch GET 200 https://registry.npmjs.org/@types/user-home/-/user-home-2.0.0.tgz 2137ms
+420 silly pacote tag manifest for @types/user-home@ts3.6 fetched in 4228ms
+421 http fetch GET 200 https://registry.npmjs.org/@types/wordwrap/-/wordwrap-1.0.1.tgz 1047ms
+422 silly pacote tag manifest for @types/wordwrap@ts3.6 fetched in 3426ms
+423 http fetch GET 200 https://registry.npmjs.org/@types/when/-/when-2.4.34.tgz 2155ms
+424 silly pacote tag manifest for @types/when@ts3.6 fetched in 4009ms
+425 http fetch GET 200 https://registry.npmjs.org/@types/vhost/-/vhost-3.0.4.tgz 2246ms
+426 silly pacote tag manifest for @types/vhost@ts3.6 fetched in 4404ms
+427 timing stage:rollbackFailedOptional Completed in 1ms
+428 timing stage:runTopLevelLifecycles Completed in 24666ms
+429 verbose type tag
+430 verbose stack @types/delegates: No matching version found for @types/delegates@ts3.6.
+430 verbose stack     at pickManifest (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/index.js:122:13)
+430 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14
+430 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+430 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+430 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+430 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+430 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+430 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+430 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+430 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+430 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+430 verbose stack     at processImmediate (internal/timers.js:456:21)
+431 verbose cwd /home/theia/.cache/typescript/3.6
+432 verbose Linux 5.15.90.1-microsoft-standard-WSL2
+433 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--ignore-scripts" "@types/accepts@ts3.6" "@types/are-we-there-yet@ts3.6" "@types/argparse@ts3.6" "@types/asn1@ts3.6" "@types/assert-plus@ts3.6" "@types/autosize@ts3.6" "@types/aws4@ts3.6" "@types/babel-plugin-syntax-jsx@ts3.6" "@types/balanced-match@ts3.6" "@types/bent@ts3.6" "@types/bindings@ts3.6" "@types/body-parser@ts3.6" "@types/brace-expansion@ts3.6" "@types/buffer-crc32@ts3.6" "@types/buffers@ts3.6" "@types/byline@ts3.6" "@types/bytes@ts3.6" "@types/caseless@ts3.6" "@types/checksum@ts3.6" "@types/chownr@ts3.6" "@types/color-convert@ts3.6" "@types/color-name@ts3.6" "@types/combined-stream@ts3.6" "@types/concat-map@ts3.6" "@types/content-disposition@ts3.6" "@types/content-type@ts3.6" "@types/cookie@ts3.6" "@types/cookie-signature@ts3.6" "@types/css-to-react-native@ts3.6" "@types/dashdash@ts3.6" "@types/debug@ts3.6" "@types/decompress@ts3.6" "@types/deep-extend@ts3.6" "@types/delegates@ts3.6" "@types/depd@ts3.6" "@types/destroy@ts3.6" "@types/detect-libc@ts3.6" "@types/diff@ts3.6" "@types/dir-glob@ts3.6" "@types/dompurify@ts3.6" "@types/drivelist@ts3.6" "@types/ee-first@ts3.6" "@types/encodeurl@ts3.6" "@types/end-of-stream@ts3.6" "@types/escape-html@ts3.6" "@types/etag@ts3.6" "@types/event-stream@ts3.6" "@types/extend@ts3.6" "@types/extsprintf@ts3.6" "@types/finalhandler@ts3.6" "@types/forever-agent@ts3.6" "@types/forwarded@ts3.6" "@types/fresh@ts3.6" "@types/from@ts3.6" "@types/fs-extra@ts3.6" "@types/fs-minipass@ts3.6" "@types/gauge@ts3.6" "@types/getpass@ts3.6" "@types/graceful-fs@ts3.6" "@types/http-errors@ts3.6" "@types/imurmurhash@ts3.6" "@types/inherits@ts3.6" "@types/ini@ts3.6" "@types/is-natural-number@ts3.6" "@types/is-typedarray@ts3.6" "@types/isarray@ts3.6" "@types/isexe@ts3.6" "@types/isstream@ts3.6" "@types/jsbn@ts3.6" "@types/json-schema@ts3.6" "@types/json-stringify-safe@ts3.6" "@types/jsonfile@ts3.6" "@types/jsprim@ts3.6" "@types/linkify-it@ts3.6" "@types/lodash@ts3.6" "@types/lodash.clonedeep@ts3.6" "@types/lodash.debounce@ts3.6" "@types/lodash.throttle@ts3.6" "@types/map-stream@ts3.6" "@types/markdown-it@ts3.6" "@types/mdurl@ts3.6" "@types/media-typer@ts3.6" "@types/merge-descriptors@ts3.6" "@types/methods@ts3.6" "@types/mime@ts3.6" "@types/mime-db@ts3.6" "@types/mime-types@ts3.6" "@types/minimist@ts3.6" "@types/minizlib@ts3.6" "@types/ms@ts3.6" "@types/negotiator@ts3.6" "@types/nested-error-stacks@ts3.6" "@types/node-abi@ts3.6" "@types/npmlog@ts3.6" "@types/number-is-nan@ts3.6" "@types/object-assign@ts3.6" "@types/on-finished@ts3.6" "@types/once@ts3.6" "@types/oniguruma@ts3.6" "@types/optimist@ts3.6" "@types/os-homedir@ts3.6" "@types/parseurl@ts3.6" "@types/path-is-absolute@ts3.6" "@types/pdfobject@ts3.6" "@types/pify@ts3.6" "@types/progress@ts3.6" "@types/prop-types@ts3.6" "@types/proxy-addr@ts3.6" "@types/proxy-from-env@ts3.6" "@types/ps-tree@ts3.6" "@types/psl@ts3.6" "@types/pump@ts3.6" "@types/punycode@ts3.6" "@types/qs@ts3.6" "@types/range-parser@ts3.6" "@types/rc@ts3.6" "@types/react@ts3.6" "@types/react-dom@ts3.6" "@types/react-is@ts3.6" "@types/react-lifecycles-compat@ts3.6" "@types/react-virtualized@ts3.6" "@types/readable-stream@ts3.6" "@types/regenerator-runtime@ts3.6" "@types/request@ts3.6" "@types/requestretry@ts3.6" "@types/require-directory@ts3.6" "@types/route-parser@ts3.6" "@types/safer-buffer@ts3.6" "@types/sanitize-html@ts3.6" "@types/scheduler@ts3.6" "@types/semver@ts3.6" "@types/send@ts3.6" "@types/serve-static@ts3.6" "@types/set-blocking@ts3.6" "@types/showdown@ts3.6" "@types/signal-exit@ts3.6" "@types/simple-get@ts3.6" "@types/split@ts3.6" "@types/sprintf@ts3.6" "@types/sprintf-js@ts3.6" "@types/sshpk@ts3.6" "@types/statuses@ts3.6" "@types/styled-components@ts3.6" "@types/supports-color@ts3.6" "@types/tar@ts3.6" "@types/tar-fs@ts3.6" "@types/tar-stream@ts3.6" "@types/through@ts3.6" "@types/toidentifier@ts3.6" "@types/tough-cookie@ts3.6" "@types/traverse@ts3.6" "@types/type-is@ts3.6" "@types/unbzip2-stream@ts3.6" "@types/universalify@ts3.6" "@types/unzip-stream@ts3.6" "@types/user-home@ts3.6" "@types/util-deprecate@ts3.6" "@types/utils-merge@ts3.6" "@types/uuid@ts3.6" "@types/vary@ts3.6" "@types/verror@ts3.6" "@types/vhost@ts3.6" "@types/when@ts3.6" "@types/which@ts3.6" "@types/which-pm-runs@ts3.6" "@types/wordwrap@ts3.6" "@types/wrap-ansi@ts3.6" "@types/ws@ts3.6" "@types/xtend@ts3.6" "@types/yallist@ts3.6" "@types/yargs@ts3.6" "@types/yauzl@ts3.6" "--save-dev" "--user-agent=typesInstaller/3.6.3"
+434 verbose node v12.18.3
+435 verbose npm  v6.14.6
+436 error code ETARGET
+437 error notarget No matching version found for @types/delegates@ts3.6.
+438 error notarget In most cases you or one of your dependencies are requesting
+438 error notarget a package version that doesn't exist.
+439 verbose exit [ 1, true ]
